@@ -8,8 +8,14 @@
    
 font-family: 'Work Sans', sans-serif;
 }
-.btn-ptimary{
-    
+.btn-primary{
+    border-radius: 8px;
+    background: #ff900e;
+    padding: 20px 25px;
+    color: wheat;
+    font-size: 1.25rem;
+    cursor: pointer;
+    border: 0;
 }
 /* header styles */
 header{
@@ -53,4 +59,8 @@ margin: 0 auto;
 }
 .banner-description{
     columns: #727272;
+}
+.banner img{
+    width: 100%;
+    margin-top: 20px;
 }
